@@ -1,0 +1,40 @@
+.about-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #21212A;
+  font-size: 1.35rem;
+  color: #FFFFFF;
+
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .about {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .info {
+      div {
+        margin: 1% 0;
+      }
+
+      span {
+        background-color: #00ffda;
+        color: #21212A;
+      }
+    }
+
+    .random {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
+
+}

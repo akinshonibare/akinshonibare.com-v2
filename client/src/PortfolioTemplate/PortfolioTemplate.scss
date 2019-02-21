@@ -1,0 +1,55 @@
+.portfoliotemplate-wrapper {
+  margin: 0 auto;
+  color: #000000;
+  font-size: 1.35rem;
+  font-weight: 500;
+
+  .title {
+    margin-bottom: 4%;
+
+    span {
+      background-color: #00ffda;
+      padding: 1.5% 1.5%;
+    }
+  }
+
+  .tools {
+    margin: 4% 0;
+    text-align: right;
+
+    span {
+      background-color: #f0f;
+      margin-left: 2%;
+      padding: 1% 2%;
+
+      svg {
+        margin-right: 1%;
+      }
+    }
+  }
+
+  .description {
+    margin: 4% 0;
+    color: #FFFFFF;
+  }
+
+  .border {
+    border-top: 2px solid #00ffda;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .portfoliotemplate-wrapper {
+    width: 35%;
+    margin-bottom: 5%;
+
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .portfoliotemplate-wrapper {
+    width: 75%;
+    margin-bottom: 10%;
+
+  }
+}
